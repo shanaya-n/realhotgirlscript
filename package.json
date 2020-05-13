@@ -1,0 +1,34 @@
+{
+  "name": "realhotgirlscript",
+  "version": "1.0.0",
+  "description": "Compilers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collect-coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurenlindsey1/realhotgirlscript.git"
+  },
+  "author": "KeAnna Anglin, Lauren Lindsey, Shanaya Nagendran, Sage Strieker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurenlindsey1/realhotgirlscript/issues"
+  },
+  "homepage": "https://github.com/laurenlindsey1/realhotgirlscript#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "deep-equal": "^2.0.2",
+    "jest": "^25.1.0",
+    "ohm-js": "^0.14.0",
+    "prettier": "^2.0.5",
+    "pretty-js": "^0.2.1",
+    "util": "^0.12.2",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0"
+  }
+}
